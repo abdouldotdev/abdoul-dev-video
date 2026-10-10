@@ -1,0 +1,30 @@
+<!-- @dsCard height=320 -->
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;900&display=swap">
+<style>
+html,body{margin:0;background:var(--paper)}
+.cv{position:relative;width:960px;height:320px;overflow:hidden;background-color:var(--paper);background-image:linear-gradient(var(--grid-line) 1px,transparent 1px),linear-gradient(90deg,var(--grid-line) 1px,transparent 1px);background-size:12px 12px}
+.cv svg{position:absolute;left:0;top:0}
+.ink{fill:var(--ink)} .acc{fill:var(--accent)} .tl{fill:var(--tile);stroke:var(--ink);stroke-width:3} .tint{fill:var(--accent-tint);stroke:var(--ink);stroke-width:3}
+.name{position:absolute;left:48px;bottom:52px;max-width:440px}
+.name h1{margin:0;font:900 72px/.95 var(--font-display);color:var(--ink);letter-spacing:-2px}
+.name p{margin:16px 0 0;font:500 14px/1.4 var(--font-body);color:var(--ink-soft)}
+</style></head><body>
+<div class="cv">
+<!--
+blocks: accent 288x128 (deux cartes fusionnées) + accent 128x128, ink 128x128, tile 128x128 cerclé ink, accent-tint 128x288 ; coins radius-card (22)
+arrangement: grille modulaire décalée à droite de x=512, pas de 160, colonne de droite qui déborde du bord
+pattern: tuiles posées sur une ombre dure ink décalée de 4/4 (shadow-hard) sur le papier quadrillé : le système range chaque objet dans une carte noire-contour à ombre dure, c'est sa signature brutale
+scales: pas 160 = 128 + 32, ombre 4 = shadow-hard, rayon 22 = radius-card, quadrillage 12 = grid-line
+-->
+<svg width="960" height="320" viewBox="0 0 960 320" aria-hidden="true">
+ <rect class="ink" x="516" y="28" width="288" height="128" rx="22"/><rect class="acc" x="512" y="24" width="288" height="128" rx="22"/>
+ <rect class="ink" x="836" y="28" width="128" height="288" rx="22"/><rect class="tint" x="832" y="24" width="128" height="288" rx="22"/>
+ <rect class="ink" x="516" y="188" width="128" height="128" rx="22"/><rect class="tl" x="512" y="184" width="128" height="128" rx="22"/>
+ <rect class="ink" x="672" y="184" width="128" height="128" rx="22"/>
+ <rect class="ink" x="844" y="108" width="100" height="100" rx="22"/><rect class="acc" x="840" y="104" width="100" height="100" rx="22"/>
+</svg>
+<div class="name"><h1>abdoul.dev</h1><p>Une phrase, un objet réel, une scène.</p></div>
+</div>
+</body></html>

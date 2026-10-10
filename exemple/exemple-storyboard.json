@@ -1,0 +1,41 @@
+{
+  "video": "premiers-clients",
+  "fps": 30,
+  "duration": 12.9,
+  "audio": "voix.mp3",
+  "scenes": [
+    { "id": "s1", "start": 0.0, "end": 2.3,
+      "say": "Tes premiers clients ? Arrête de poster partout.",
+      "component": "Sticker",
+      "events": [
+        { "t": 0.0,  "el": "caption", "text": "Tes premiers <em>clients</em> ?" },
+        { "t": 1.12, "el": "sticker", "pose": "stop", "word": "Arrête" },
+        { "t": 1.12, "el": "caption", "text": "Arrête de poster <em>partout</em>" }
+      ] },
+    { "id": "s2", "start": 2.3, "end": 5.2,
+      "say": "Va là où ta cible est déjà.",
+      "component": "MapPins", "props": { "target": "TA CIBLE" },
+      "events": [
+        { "t": 2.3, "el": "map" },
+        { "t": 2.5, "el": "pin.you", "word": "Va", "state": "far", "accent": true },
+        { "t": 3.3, "el": "pin.target", "word": "cible", "text": "TA CIBLE" },
+        { "t": 4.3, "el": "pin.you", "word": "déjà", "state": "near" }
+      ] },
+    { "id": "s3", "start": 5.2, "end": 10.3,
+      "say": "Ta cible tape « plombier paris 14 ». Ton site ? Page 3.",
+      "component": "GoogleResults", "props": { "query": "plombier paris 14", "rank": 27, "page": 3 },
+      "events": [
+        { "t": 5.2,  "el": "window" },
+        { "t": 5.72, "el": "query", "word": "tape", "text": "plombier paris 14", "typing": true },
+        { "t": 8.0,  "el": "result.you", "word": "site", "text": "TON SITE", "accent": true },
+        { "t": 8.9,  "el": "page", "word": "Page", "value": 3 }
+      ] },
+    { "id": "s4", "start": 10.3, "end": 12.9,
+      "say": "Personne ne va en page 3.",
+      "component": "Sticker",
+      "events": [
+        { "t": 10.3, "el": "caption", "text": "Personne ne va en <em>page 3</em>" },
+        { "t": 11.0, "el": "sticker", "pose": "facepalm", "word": "Personne" }
+      ] }
+  ]
+}

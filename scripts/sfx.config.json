@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "provider": "elevenlabs",
+  "model_id": "eleven_text_to_sound_v2",
+  "output_format": "mp3_44100_128",
+  "dir": "sfx",
+  "volume": 0.5,
+  "sounds": {
+    "pop":   { "prompt": "short soft cartoon pop, bubbly UI appear sound, clean, no reverb", "duration": 0.5, "influence": 0.6 },
+    "tap":   { "prompt": "single crisp wooden tap, minimal UI click, dry", "duration": 0.5, "influence": 0.6 },
+    "cash":  { "prompt": "short cash register ching, bright and clean", "duration": 0.8, "influence": 0.6 }
+  },
+  "triggers": {
+    "sticker": "pop",
+    "PunchTitle": "pop",
+    "Chapter": "tap",
+    "BigNumber": "cash"
+  }
+}

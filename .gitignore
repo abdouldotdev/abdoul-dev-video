@@ -1,0 +1,25 @@
+# Local work, generated media and secrets
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+node_modules/
+.DS_Store
+
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.mp4
+*.mov
+*.webm
+
+propre/
+sfx/
+proj/
+outputs/
+previews/
+*.log

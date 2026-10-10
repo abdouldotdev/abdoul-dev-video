@@ -1,0 +1,683 @@
+{
+ "video": "combien-ca-coute-30s",
+ "fps": 30,
+ "duration": 67.86,
+ "audio": "voix.mp3",
+ "scenes": [
+  {
+   "id": "s1",
+   "start": 0.0,
+   "end": 1.5,
+   "component": "PunchTitle",
+   "say": "Combien ça m'a coûté de créer",
+   "events": [
+    {
+     "t": 0.0,
+     "el": "l1",
+     "word": "Combien"
+    },
+    {
+     "t": 0.0,
+     "el": "sticker",
+     "word": "Combien",
+     "pose": "money",
+     "until": 1.5
+    },
+    {
+     "t": 0.62,
+     "el": "l2",
+     "word": "coûté",
+     "accent": true
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "start": 1.5,
+   "end": 5.88,
+   "component": "PhoneScreen",
+   "say": "une application de transfert d'argent au Burkina qui gère déjà des milliers de transactions",
+   "events": [
+    {
+     "t": 1.5,
+     "el": "c1",
+     "word": "une"
+    },
+    {
+     "t": 1.78,
+     "el": "phone",
+     "word": "application"
+    },
+    {
+     "t": 3.32,
+     "el": "bf",
+     "word": "Burkina"
+    },
+    {
+     "t": 4.58,
+     "el": "c2",
+     "word": "des"
+    },
+    {
+     "t": 4.8,
+     "el": "list",
+     "word": "milliers"
+    },
+    {
+     "t": 4.9,
+     "el": "n1",
+     "word": "milliers"
+    },
+    {
+     "t": 5.15,
+     "el": "n2",
+     "word": "milliers"
+    },
+    {
+     "t": 5.22,
+     "el": "tx",
+     "word": "transactions",
+     "accent": true
+    },
+    {
+     "t": 5.4,
+     "el": "n3",
+     "word": "milliers"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "start": 5.88,
+   "end": 7.76,
+   "component": "CodeEditor",
+   "say": "Déjà de base je suis développeur",
+   "events": [
+    {
+     "t": 5.88,
+     "el": "c1",
+     "word": "Déjà"
+    },
+    {
+     "t": 5.88,
+     "el": "win",
+     "word": "Déjà"
+    },
+    {
+     "t": 6.28,
+     "el": "v",
+     "word": "base",
+     "typing": true,
+     "text": "\"développeur\";"
+    },
+    {
+     "t": 7.02,
+     "el": "v",
+     "word": "développeur",
+     "accent": true
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "start": 7.76,
+   "end": 12.4,
+   "component": "Timeline",
+   "say": "Il y a cinq mois je lançais NanaPay une appli de transfert d'argent au Burkina ici",
+   "events": [
+    {
+     "t": 7.76,
+     "el": "c1",
+     "word": "Il"
+    },
+    {
+     "t": 7.76,
+     "el": "card",
+     "word": "Il"
+    },
+    {
+     "t": 8.02,
+     "el": "d0",
+     "word": "cinq"
+    },
+    {
+     "t": 8.14,
+     "el": "d1",
+     "word": "cinq"
+    },
+    {
+     "t": 8.26,
+     "el": "d2",
+     "word": "cinq"
+    },
+    {
+     "t": 8.38,
+     "el": "d3",
+     "word": "cinq"
+    },
+    {
+     "t": 8.5,
+     "el": "d4",
+     "word": "cinq"
+    },
+    {
+     "t": 8.6,
+     "el": "l0",
+     "word": "lançais",
+     "accent": true
+    },
+    {
+     "t": 8.62,
+     "el": "d5",
+     "word": "cinq"
+    },
+    {
+     "t": 9.98,
+     "el": "app",
+     "word": "appli"
+    },
+    {
+     "t": 11.94,
+     "el": "l5",
+     "word": "ici"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "start": 12.4,
+   "end": 16.56,
+   "component": "Sticker",
+   "say": "Moi c'est Abdoul ça fait plus d'une année maintenant que je crée mes propres applications pour en vivre",
+   "events": [
+    {
+     "t": 12.4,
+     "el": "c1",
+     "word": "Moi"
+    },
+    {
+     "t": 12.4,
+     "el": "sticker",
+     "word": "Moi",
+     "pose": "wave",
+     "until": 15.76
+    },
+    {
+     "t": 13.74,
+     "el": "big",
+     "word": "année",
+     "accent": true
+    },
+    {
+     "t": 14.56,
+     "el": "c2",
+     "word": "crée"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "start": 16.56,
+   "end": 24.26,
+   "component": "Receipt",
+   "say": "Et voici ce que NanaPay nous a coûté pour son lancement Pour le développement de l'application j'ai utilisé Claude Code pendant deux mois donc ça revient à",
+   "events": [
+    {
+     "t": 16.72,
+     "el": "c1",
+     "word": "voici"
+    },
+    {
+     "t": 16.72,
+     "el": "card",
+     "word": "voici"
+    },
+    {
+     "t": 17.32,
+     "el": "brand",
+     "word": "NanaPay"
+    },
+    {
+     "t": 18.2,
+     "el": "tot",
+     "word": "coûté",
+     "accent": true
+    },
+    {
+     "t": 19.76,
+     "el": "g1",
+     "word": "développement"
+    },
+    {
+     "t": 21.84,
+     "el": "a1",
+     "word": "Claude"
+    },
+    {
+     "t": 22.86,
+     "el": "a1",
+     "word": "deux"
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "start": 24.26,
+   "end": 26.8,
+   "component": "BigNumber",
+   "say": "40 dollars pour 20 dollars mensuellement",
+   "events": [
+    {
+     "t": 24.26,
+     "el": "c1",
+     "word": "40"
+    },
+    {
+     "t": 24.26,
+     "el": "big",
+     "word": "40",
+     "accent": true
+    },
+    {
+     "t": 24.26,
+     "el": "sticker",
+     "word": "40",
+     "pose": "star_eyes",
+     "until": 26.8
+    },
+    {
+     "t": 25.3,
+     "el": "c2",
+     "word": "20"
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "start": 26.8,
+   "end": 35.38,
+   "component": "Receipt",
+   "say": "Pour publier l'application il faut un compte App Store qui fait 99 dollars par an et un compte Play Store qui fait 25 dollars paiement unique",
+   "events": [
+    {
+     "t": 27.04,
+     "el": "c1",
+     "word": "publier"
+    },
+    {
+     "t": 29.06,
+     "el": "g2",
+     "word": "App"
+    },
+    {
+     "t": 30.02,
+     "el": "a2",
+     "word": "99"
+    },
+    {
+     "t": 32.32,
+     "el": "r3",
+     "word": "Play"
+    },
+    {
+     "t": 33.24,
+     "el": "a3",
+     "word": "25",
+     "accent": true
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "start": 35.38,
+   "end": 37.2,
+   "component": "BigNumber",
+   "say": "Dit comme ça c'est pas cher",
+   "events": [
+    {
+     "t": 35.38,
+     "el": "c1",
+     "word": "Dit"
+    },
+    {
+     "t": 35.38,
+     "el": "sticker",
+     "word": "Dit",
+     "pose": "thumbs_up",
+     "until": 37.2
+    },
+    {
+     "t": 35.56,
+     "el": "big",
+     "word": "comme",
+     "accent": true
+    },
+    {
+     "t": 36.38,
+     "el": "c2",
+     "word": "c'est"
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "start": 37.2,
+   "end": 38.16,
+   "component": "PunchTitle",
+   "say": "Mais ce n'est pas tout",
+   "events": [
+    {
+     "t": 37.48,
+     "el": "l1",
+     "word": "n'est"
+    },
+    {
+     "t": 37.62,
+     "el": "l2",
+     "word": "pas",
+     "accent": true
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "start": 38.16,
+   "end": 41.24,
+   "component": "CalcCards",
+   "say": "Pour qu'une application réussisse il faut aussi du marketing",
+   "events": [
+    {
+     "t": 38.16,
+     "el": "c1",
+     "word": "Pour"
+    },
+    {
+     "t": 38.5,
+     "el": "k1",
+     "word": "application"
+    },
+    {
+     "t": 40.38,
+     "el": "k2",
+     "word": "marketing"
+    },
+    {
+     "t": 40.98,
+     "el": "k3",
+     "word": "marketing",
+     "accent": true
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "start": 41.24,
+   "end": 43.64,
+   "component": "PunchTitle",
+   "say": "Et pour ça il n'y a pas de négociation",
+   "events": [
+    {
+     "t": 42.02,
+     "el": "sticker",
+     "word": "il",
+     "pose": "arms_crossed",
+     "until": 43.64
+    },
+    {
+     "t": 42.3,
+     "el": "l1",
+     "word": "pas"
+    },
+    {
+     "t": 42.58,
+     "el": "l2",
+     "word": "négociation",
+     "accent": true
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "start": 43.64,
+   "end": 46.3,
+   "component": "GoalProgress",
+   "say": "Tu mises tout ce que tu peux avoir pour le marketing",
+   "events": [
+    {
+     "t": 43.64,
+     "el": "c1",
+     "word": "Tu"
+    },
+    {
+     "t": 43.84,
+     "el": "card",
+     "word": "mises"
+    },
+    {
+     "t": 44.1,
+     "el": "bar",
+     "word": "tout"
+    },
+    {
+     "t": 45.58,
+     "el": "tag",
+     "word": "marketing",
+     "accent": true
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "start": 46.3,
+   "end": 49.92,
+   "component": "BarChart",
+   "say": "Et c'est ce qu'on a fait avec NanaPay Et jusqu'à présent tout marche bien",
+   "events": [
+    {
+     "t": 46.38,
+     "el": "c1",
+     "word": "c'est"
+    },
+    {
+     "t": 46.38,
+     "el": "card",
+     "word": "c'est"
+    },
+    {
+     "t": 47.32,
+     "el": "b0",
+     "word": "NanaPay"
+    },
+    {
+     "t": 47.5,
+     "el": "b1",
+     "word": "NanaPay"
+    },
+    {
+     "t": 47.68,
+     "el": "b2",
+     "word": "NanaPay"
+    },
+    {
+     "t": 47.86,
+     "el": "b3",
+     "word": "NanaPay"
+    },
+    {
+     "t": 48.04,
+     "el": "b4",
+     "word": "NanaPay"
+    },
+    {
+     "t": 48.94,
+     "el": "c2",
+     "word": "tout"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "start": 49.92,
+   "end": 52.24,
+   "component": "BigNumber",
+   "say": "On fait des milliers de transactions",
+   "events": [
+    {
+     "t": 49.92,
+     "el": "c1",
+     "word": "On"
+    },
+    {
+     "t": 50.16,
+     "el": "sticker",
+     "word": "des",
+     "pose": "chart_up",
+     "until": 52.24
+    },
+    {
+     "t": 50.34,
+     "el": "big",
+     "word": "milliers",
+     "accent": true
+    },
+    {
+     "t": 50.76,
+     "el": "c2",
+     "word": "transactions"
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "start": 52.24,
+   "end": 59.58,
+   "component": "Versus",
+   "say": "Donc retiens bien que ça coûte pas cher de créer une application en 2026 mais ce qui change tout c'est le marketing et la distribution",
+   "events": [
+    {
+     "t": 52.46,
+     "el": "c1",
+     "word": "retiens"
+    },
+    {
+     "t": 52.86,
+     "el": "l",
+     "word": "bien"
+    },
+    {
+     "t": 53.98,
+     "el": "cheap",
+     "word": "cher"
+    },
+    {
+     "t": 55.5,
+     "el": "y",
+     "word": "2026"
+    },
+    {
+     "t": 56.86,
+     "el": "c2",
+     "word": "change"
+    },
+    {
+     "t": 56.86,
+     "el": "l",
+     "word": "change"
+    },
+    {
+     "t": 57.06,
+     "el": "r",
+     "word": "change",
+     "accent": true
+    },
+    {
+     "t": 57.88,
+     "el": "m",
+     "word": "marketing"
+    },
+    {
+     "t": 58.48,
+     "el": "plus",
+     "word": "la"
+    },
+    {
+     "t": 58.62,
+     "el": "d",
+     "word": "distribution"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "start": 59.58,
+   "end": 62.24,
+   "component": "PhoneScreen",
+   "say": "Sans ça personne n'utilisera ton application",
+   "events": [
+    {
+     "t": 60.14,
+     "el": "c1",
+     "word": "personne"
+    },
+    {
+     "t": 60.14,
+     "el": "phone",
+     "word": "personne"
+    },
+    {
+     "t": 60.64,
+     "el": "zero",
+     "word": "n'utilisera",
+     "accent": true
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "start": 62.24,
+   "end": 64.46,
+   "component": "PunchTitle",
+   "say": "et tu auras perdu du temps et de l'argent",
+   "events": [
+    {
+     "t": 62.84,
+     "el": "l1",
+     "word": "perdu"
+    },
+    {
+     "t": 63.92,
+     "el": "l2",
+     "word": "l'argent",
+     "accent": true
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "start": 64.46,
+   "end": 67.86,
+   "component": "EndCard",
+   "say": "Et si tu veux d'autres conseils de ce genre abonne-toi à moi",
+   "events": [
+    {
+     "t": 64.56,
+     "el": "sticker",
+     "word": "si",
+     "pose": "hands_heart",
+     "until": 67.86
+    },
+    {
+     "t": 64.96,
+     "el": "l1",
+     "word": "d'autres"
+    },
+    {
+     "t": 66.26,
+     "el": "l2",
+     "word": "abonne-toi",
+     "accent": true
+    }
+   ]
+  }
+ ]
+}
